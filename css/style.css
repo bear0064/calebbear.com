@@ -425,6 +425,7 @@ h1 {
   color: #fff; }
 
 p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #ffffff; }
 
 /* =Forms
@@ -526,7 +527,7 @@ input[placeholder],
 .catcher {
   position: relative;
   margin: 0 50;
-  font-size: 28px;
+  font-size: 48px;
   line-height: 28px;
   font-weight: 700;
   margin-bottom: 30px; }
@@ -593,12 +594,12 @@ input[placeholder],
 footer {
   position: relative;
   width: 100%;
-  height: auto;
-  background: #000;
+  height: 250px;
+  background: #fff;
   z-index: 99; }
 
 footer .credits {
-  color: #FFFFFF;
+  color: #000;
   font-size: 13px;
   margin-bottom: 0;
   padding: 20px; }
