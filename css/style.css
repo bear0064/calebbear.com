@@ -492,7 +492,7 @@ input[placeholder],
   padding: 0px;
   margin-bottom: 0px;
   color: inherit;
-  background: url(http://placehold.it/1200x650/cc0000/ffffff) no-repeat center center fixed;
+  background: url(http://placehold.it/1200x650/555/000000) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -575,18 +575,44 @@ input[placeholder],
 /* = Header
 -------------------------------------------------------------------------------------------------------------------- */
 .navbar-default {
+  border-color: #fff;
   position: fixed;
   padding-top: 10px;
   z-index: 100;
   width: 100%;
-  height: 73px;
+  min-height: 73px;
   background: #fff;
   border-radius: 0px; }
+
+.navbar-default img {
+  max-width: 70px; }
 
 .navbar-brand {
   font-size: 25px;
   font-weight: 700; }
 
+.navbar-default .navbar-collapse {
+  border-color: transparent; }
+
+@media only screen and (max-width: 599px) {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    display: none; }
+
+  .navbar-default img {
+    position: relative;
+    left: 35%;
+    max-width: 70px; } }
+@media only screen and (min-width: 600px) {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: 64px;
+    margin-top: -53px; } }
+@media only screen and (min-width: 960px) {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: 64px;
+    margin-top: -53px; } }
 /* = Main Navigation
 -------------------------------------------------------------------------------------------------------------------- */
 /* = Footer
