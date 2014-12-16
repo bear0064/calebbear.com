@@ -10,7 +10,6 @@ html {
 }
 body {
     font-size: 1em;
-    font-family: $font-primary, $font-secondary, $font-third;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
@@ -43,11 +42,15 @@ h3,
 h4,
 h5,
 h6 {} 
+
 h1 {
+    font-family: $font-primary;
     color:#fff;
 } 
 h2 {} 
-h3 {} 
+h3 {
+    font-family: $font-secondary;
+} 
 h4 {} 
 h5 {} 
 h6 {} 
@@ -90,6 +93,10 @@ input[placeholder],
 
 input {} input[type="text"] {} input[type="checkbox"] {} input[type="radio"] {} input[type="submit"] {} textarea {} select {} 
 
+
+/* = Custom HTML
+---------------------------- */
+
 .content-block-one {
     padding: 30px;
     margin-bottom: 0px;
@@ -110,20 +117,7 @@ input {} input[type="text"] {} input[type="checkbox"] {} input[type="radio"] {} 
 .content-block-one .container {
     max-width: 100%;
 }
-@media screen and (min-width: 768px) {
-    .content-block-one {
-        padding-top: 48px;
-        padding-bottom: 48px;
-    }
-    .container .content-block-one {
-        padding-right: 60px;
-        padding-left: 60px;
-    }
-    .content-block-one h1,
-    .content-block-one .h1 {
-        font-size: 63px;
-    }
-}
+
 .content-space-one {
     padding: 0px;
     margin-bottom: 0px;
@@ -210,4 +204,21 @@ input {} input[type="text"] {} input[type="checkbox"] {} input[type="radio"] {} 
     border-bottom: none;
     z-index: 1;
     margin-left: -15px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .content-block-one {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .container .content-block-one {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    .content-block-one h1,
+    .content-block-one .h1 {
+        font-size: 63px;
+    }
 }
