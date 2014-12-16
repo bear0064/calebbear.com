@@ -128,11 +128,16 @@ input {} input[type="text"] {} input[type="checkbox"] {} input[type="radio"] {} 
     padding: 0px;
     margin-bottom: 0px;
     color: inherit;
-    background-color: #333;
+    background-color: #fff;
     padding-top: 48px;
     padding-bottom: 48px;
     position: relative;
 }
+
+.content-space-one p, .content-space-one h1 {
+    color: #000;
+}
+
 .content-space-two {
     padding: 0px;
     margin-bottom: 0px;
@@ -215,7 +220,7 @@ input {} input[type="text"] {} input[type="checkbox"] {} input[type="radio"] {} 
 
 .triangle2 {
     position: relative;
-    top: -50px;
+    top: -48px;
     left: 50%;
     content: '';
     width: 0;
@@ -223,7 +228,7 @@ input {} input[type="text"] {} input[type="checkbox"] {} input[type="radio"] {} 
     display: block;
     border-right: 16px solid transparent;
     border-left: 16px solid transparent;
-    border-top: 16px solid #333;
+    border-top: 16px solid #fff;
     border-bottom: none;
     z-index: 2;
     margin-left: -15px;
