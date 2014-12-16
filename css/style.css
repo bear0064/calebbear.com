@@ -454,6 +454,10 @@ input[placeholder],
 ---------------------------- */
 /* = Custom HTML
 ---------------------------- */
+.background-overlay {
+  position: relative;
+  bottom: 150px; }
+
 .content-block-one {
   padding: 30px;
   margin-bottom: 0px;

@@ -98,6 +98,11 @@ input {} input[type="text"] {} input[type="checkbox"] {} input[type="radio"] {} 
 /* = Custom HTML
 ---------------------------- */
 
+.background-overlay{
+    position: relative;
+    bottom: 150px;
+}
+
 .content-block-one {
     padding: 30px;
     margin-bottom: 0px;
