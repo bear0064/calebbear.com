@@ -40,10 +40,25 @@ header {}
 
 .navbar-default .navbar-brand{
   color:#fff;   
+ 
 }
+
+
+.navbar-default .navbar-brand:hover{
+  color:#ccc;   
+}
+
 
 .navbar-default .navbar-nav>li>a{
  color:#fff;   
+
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+ color:#ccc;   
+}
+.navbar-default .navbar-nav>li>a:focus{
+ color:#ccc;   
 }
 
 
