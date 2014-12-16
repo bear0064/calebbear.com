@@ -44,6 +44,7 @@ h5,
 h6 {} 
 
 h1 {
+    text-align: center;
     font-family: $font-primary;
     color:#fff;
 } 
@@ -123,8 +124,8 @@ input {} input[type="text"] {} input[type="checkbox"] {} input[type="radio"] {} 
     margin-bottom: 0px;
     color: inherit;
     background-color: #333;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     position: relative;
 }
 .content-space-two {
@@ -136,8 +137,8 @@ input {} input[type="text"] {} input[type="checkbox"] {} input[type="radio"] {} 
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .page-break {
     width: 50%;
@@ -155,7 +156,7 @@ input {} input[type="text"] {} input[type="checkbox"] {} input[type="radio"] {} 
     height: 100%;
     background-size: cover;
     background-position: 50% 50%;
-    background: url(../img/GrizzlyAdams.jpg) no-repeat center center fixed;
+    background: url(../img/desktop.jpeg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -203,6 +204,22 @@ input {} input[type="text"] {} input[type="checkbox"] {} input[type="radio"] {} 
     border-top: 16px solid #000;
     border-bottom: none;
     z-index: 1;
+    margin-left: -15px;
+}
+
+.triangle2 {
+    position: relative;
+    top: -30px;
+    left: 50%;
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    border-right: 16px solid transparent;
+    border-left: 16px solid transparent;
+    border-top: 16px solid #333;
+    border-bottom: none;
+    z-index: 2;
     margin-left: -15px;
 }
 

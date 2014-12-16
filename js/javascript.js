@@ -1,6 +1,10 @@
 window.addEventListener("DOMContentLoaded", function() {
 $("#navbar").hide().fadeIn(3000);
 
+$(function(){
+  $.scrollIt();
+});    
+    
 
 var scroll_start = 0;
                 var startchange = $('#startchange');

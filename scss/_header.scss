@@ -61,6 +61,11 @@ header {}
  color:#ccc;   
 }
 
+.navbar-default .navbar-brand:focus{
+ text-decoration:none; 
+    
+}
+
 
 .navbar-default .navbar-collapse{
  border-color:transparent;
