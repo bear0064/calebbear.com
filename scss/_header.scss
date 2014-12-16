@@ -81,6 +81,6 @@ background-color: transparent;
 }
 
 
-.navbar-default { background-color: rgba(0,0,0,0);transition: background-color 2s ease 0s;}
-.navbar-default.opaque { background-color: rgba(0,0,0,1);transition: background-color 2s ease 0s;}
+.navbar-default { background-color: rgba(0,0,0,0);transition: background-color 1s linear;}
+.navbar-default.opaque { background-color: rgba(0,0,0,1);transition: background-color 1s linear;}
 

@@ -662,11 +662,11 @@ input[placeholder],
 
 .navbar-default {
   background-color: transparent;
-  transition: background-color 2s ease 0s; }
+  transition: background-color 1s linear; }
 
 .navbar-default.opaque {
   background-color: black;
-  transition: background-color 2s ease 0s; }
+  transition: background-color 1s linear; }
 
 /* = Main Navigation
 -------------------------------------------------------------------------------------------------------------------- */
