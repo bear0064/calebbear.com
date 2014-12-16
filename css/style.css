@@ -482,8 +482,8 @@ input[placeholder],
   margin-bottom: 0px;
   color: inherit;
   background-color: #333;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 48px;
+  padding-bottom: 48px;
   position: relative; }
 
 .content-space-two {
@@ -495,8 +495,8 @@ input[placeholder],
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 200px; }
+  padding-top: 48px;
+  padding-bottom: 48px; }
 
 .page-break {
   width: 50%;
@@ -566,7 +566,7 @@ input[placeholder],
 
 .triangle2 {
   position: relative;
-  top: -30px;
+  top: -50px;
   left: 50%;
   content: '';
   width: 0;
@@ -578,6 +578,13 @@ input[placeholder],
   border-bottom: none;
   z-index: 2;
   margin-left: -15px; }
+
+.text-center {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+  padding-top: 48px;
+  padding-bottom: 48px; }
 
 @media screen and (min-width: 768px) {
   .content-block-one {
@@ -662,11 +669,11 @@ input[placeholder],
 
 .navbar-default {
   background-color: transparent;
-  transition: background-color 1s linear; }
+  transition: background-color 1s ease-in 0; }
 
 .navbar-default.opaque {
   background-color: black;
-  transition: background-color 1s linear; }
+  transition: background-color 1s ease-out 0; }
 
 /* = Main Navigation
 -------------------------------------------------------------------------------------------------------------------- */

@@ -129,8 +129,8 @@ input {} input[type="text"] {} input[type="checkbox"] {} input[type="radio"] {} 
     margin-bottom: 0px;
     color: inherit;
     background-color: #333;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 48px;
+    padding-bottom: 48px;
     position: relative;
 }
 .content-space-two {
@@ -142,8 +142,9 @@ input {} input[type="text"] {} input[type="checkbox"] {} input[type="radio"] {} 
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+
 }
 .page-break {
     width: 50%;
@@ -214,7 +215,7 @@ input {} input[type="text"] {} input[type="checkbox"] {} input[type="radio"] {} 
 
 .triangle2 {
     position: relative;
-    top: -30px;
+    top: -50px;
     left: 50%;
     content: '';
     width: 0;
@@ -228,7 +229,13 @@ input {} input[type="text"] {} input[type="checkbox"] {} input[type="radio"] {} 
     margin-left: -15px;
 }
 
-
+.text-center{
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
 
 @media screen and (min-width: 768px) {
     .content-block-one {

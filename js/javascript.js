@@ -1,5 +1,5 @@
 window.addEventListener("DOMContentLoaded", function () {
-    $("#navbar").hide().fadeIn(3000);
+    $("#navbar").hide().fadeIn(2000);
 
     $(function () {
         $.scrollIt();
@@ -8,7 +8,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
 
 $(window).scroll(function() {
-    if($(this).scrollTop() > 50) {
+    if($(this).scrollTop() > 25) {
         $('.navbar-default').addClass('opaque');
     } else {
         $('.navbar-default').removeClass('opaque');
