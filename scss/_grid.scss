@@ -3,10 +3,53 @@
 	margin: 0 auto;
 }
 
-@media only screen and (min-width: $breakpoint-small) {
+
+
+@media only screen and (max-width: $breakpoint-xs) {
+
+.navbar>.container .navbar-brand,
+
+    .navbar>.container-fluid .navbar-brand {
+     
+  display:none;
+        
+    }
+ 
+    .navbar-default img {
+    position:relative;
+    left: 42%;
+    max-width: 70px;
 
 }
+    
+}
+
+@media only screen and (min-width: $breakpoint-small) {
+
+.navbar>.container .navbar-brand,
+
+    .navbar>.container-fluid .navbar-brand {
+     
+                margin-left: 64px;
+
+        margin-top: -53px;
+        
+    }
+ 
+    
+}
+
 
 @media only screen and (min-width: $breakpoint-large) {
+
+    .navbar>.container .navbar-brand,
+
+    .navbar>.container-fluid .navbar-brand {
+
+        margin-left: 64px;
+
+        margin-top: -53px;
+
+    }
 
 }
