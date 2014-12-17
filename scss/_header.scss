@@ -1,4 +1,6 @@
-header {} .navbar-default {
+header {} 
+
+.navbar-default {
     border-color: transparent;
     position: fixed;
     padding-top: 10px;
@@ -63,7 +65,7 @@ header {} .navbar-default {
     }
     .navbar-default img {
         position: relative;
-        left: 42%;
+        left: 44%;
         max-width: 70px;
     }
 }
