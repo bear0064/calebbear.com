@@ -153,6 +153,7 @@ input {} input[type="text"] {} input[type="checkbox"] {} input[type="radio"] {} 
     background-size: cover;
     background-repeat: no-repeat;
     padding: 200px 0 200px 0;
+    width:100%
 }
 .page-break {
     width: 50%;
@@ -245,4 +246,13 @@ input {} input[type="text"] {} input[type="checkbox"] {} input[type="radio"] {} 
     padding-top: 48px;
     padding-bottom: 48px;
     padding: 30px;
+}
+
+@media screen and (max-width:$breakpoint-small){
+ 
+    .content-space-two {
+ 
+    width:100%
+}
+    
 }

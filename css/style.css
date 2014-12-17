@@ -500,7 +500,8 @@ input[placeholder],
   -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 200px 0 200px 0; }
+  padding: 200px 0 200px 0;
+  width: 100%; }
 
 .page-break {
   width: 50%;
@@ -590,6 +591,9 @@ input[placeholder],
   padding-bottom: 48px;
   padding: 30px; }
 
+@media screen and (max-width: 600px) {
+  .content-space-two {
+    width: 100%; } }
 /* = Grid
 -------------------------------------------------------------------------------------------------------------------- */
 .container {
