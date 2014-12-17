@@ -57,7 +57,7 @@ header {}
 }
 
 .navbar-default .navbar-nav>li>a:hover {
- color:#ccc;   
+color:  #a99a6f;transition: color 200ms linear 0;
 }
 .navbar-default .navbar-nav>li>a:focus{
  color:#fff;   
@@ -67,7 +67,11 @@ header {}
  color:#fff;  
 }
 
+.navbar-default .navbar-brand:hover{
+color:  #a99a6f;transition: color 200ms linear 0;
+   
 
+}
 .navbar-default .navbar-collapse{
  border-color:transparent;
 -webkit-box-shadow:none; 
