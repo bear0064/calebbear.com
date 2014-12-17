@@ -51,7 +51,9 @@ h1 {
 h2 {} 
 h3 {
     font-family: $font-secondary;
-} 
+    color: #a99a6f;   
+}
+
 h4 {} 
 h5 {} 
 h6 {} 
@@ -179,10 +181,11 @@ input {} input[type="text"] {} input[type="checkbox"] {} input[type="radio"] {} 
     position: relative;
     margin: 0 50;
     font-size: 48px;
-    line-height: 28px;
     font-weight: 700;
     margin-bottom: 30px;
 }
+
+
 .container {
     padding: 0 50px;
 }

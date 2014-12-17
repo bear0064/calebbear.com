@@ -426,7 +426,8 @@ h1 {
   color: #fff; }
 
 h3 {
-  font-family: "Raleway", sans-serif; }
+  font-family: "Raleway", sans-serif;
+  color: #a99a6f; }
 
 p {
   font-family: "Raleway", sans-serif;
@@ -529,7 +530,6 @@ input[placeholder],
   position: relative;
   margin: 0 50;
   font-size: 48px;
-  line-height: 28px;
   font-weight: 700;
   margin-bottom: 30px; }
 
@@ -607,6 +607,59 @@ input[placeholder],
   max-width: 1220px;
   margin: 0 auto; }
 
+/* = Header
+-------------------------------------------------------------------------------------------------------------------- */
+.navbar-default {
+  border-color: transparent;
+  position: fixed;
+  padding-top: 10px;
+  z-index: 100;
+  width: 100%;
+  min-height: 83px;
+  background: transparent;
+  border-radius: 0px; }
+
+.navbar-default img {
+  cursor: pointer;
+  max-width: 70px; }
+
+.navbar-brand {
+  font-size: 25px; }
+
+.navbar-default .navbar-brand {
+  color: #fff; }
+
+.navbar-default .navbar-brand:hover {
+  color: #ccc; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #ccc; }
+
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff; }
+
+.navbar-default .navbar-brand:focus {
+  color: #fff; }
+
+.navbar-default .navbar-collapse {
+  border-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: transparent; }
+
+.navbar-default {
+  background-color: transparent;
+  transition: background-color 400ms linear 0; }
+
+.navbar-default.opaque {
+  background-color: black;
+  transition: background-color 400ms linear 0; }
+
 @media only screen and (max-width: 599px) {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
@@ -626,58 +679,6 @@ input[placeholder],
   .navbar > .container-fluid .navbar-brand {
     margin-left: 64px;
     margin-top: -53px; } }
-/* = Header
--------------------------------------------------------------------------------------------------------------------- */
-.navbar-default {
-  border-color: transparent;
-  position: fixed;
-  padding-top: 10px;
-  z-index: 100;
-  width: 100%;
-  min-height: 83px;
-  background: transparent;
-  border-radius: 0px; }
-
-.navbar-default img {
-  max-width: 70px; }
-
-.navbar-brand {
-  font-size: 25px; }
-
-.navbar-default .navbar-brand {
-  color: #fff; }
-
-.navbar-default .navbar-brand:hover {
-  color: #ccc; }
-
-.navbar-default .navbar-nav > li > a {
-  color: #fff; }
-
-.navbar-default .navbar-nav > li > a:hover {
-  color: #ccc; }
-
-.navbar-default .navbar-nav > li > a:focus {
-  color: #ccc; }
-
-.navbar-default .navbar-brand:focus {
-  text-decoration: none; }
-
-.navbar-default .navbar-collapse {
-  border-color: transparent;
-  -webkit-box-shadow: none;
-  box-shadow: none; }
-
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: transparent; }
-
-.navbar-default {
-  background-color: transparent;
-  transition: background-color 1s ease-in 0; }
-
-.navbar-default.opaque {
-  background-color: black;
-  transition: background-color 1s ease-out 0; }
-
 /* = Main Navigation
 -------------------------------------------------------------------------------------------------------------------- */
 /* = Footer
