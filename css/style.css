@@ -423,11 +423,13 @@ hr {
 h1 {
   text-align: center;
   font-family: "Quicksand", sans-serif;
-  color: #fff; }
+  color: #fff;
+  font-size: 36px; }
 
 h3 {
   font-family: "Raleway", sans-serif;
-  color: #a99a6f; }
+  color: #a99a6f;
+  font-size: 26px; }
 
 p {
   font-family: "Raleway", sans-serif;
@@ -460,7 +462,7 @@ input[placeholder],
   bottom: 223px; }
 
 .content-block-one {
-  padding: 30px;
+  padding: 48px 30px 48px 30px;
   margin-bottom: 0px;
   background-color: #000; }
 
@@ -588,20 +590,9 @@ input[placeholder],
   font-size: 21px;
   font-weight: 300;
   padding-top: 48px;
-  padding-bottom: 48px; }
+  padding-bottom: 48px;
+  padding: 30px; }
 
-@media screen and (min-width: 768px) {
-  .content-block-one {
-    padding-top: 48px;
-    padding-bottom: 48px; }
-
-  .container .content-block-one {
-    padding-right: 60px;
-    padding-left: 60px; }
-
-  .content-block-one h1,
-  .content-block-one .h1 {
-    font-size: 63px; } }
 /* = Grid
 -------------------------------------------------------------------------------------------------------------------- */
 .container {
