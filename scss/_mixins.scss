@@ -54,3 +54,21 @@ Mixins & Extensions
 	background-image: -o-linear-gradient(top, $from, $to);
 	background-image: linear-gradient(to bottom, $from, $to);
 }
+
+@mixin hoverstate-color{
+ -webkit-transition: -webkit-color 200ms linear 0s;
+    -moz-transition: -moz-color 200ms linear 0s;
+    -o-transition: -o-color 200ms linear 0s;
+    transition: color 200ms linear 0s;
+    
+}
+
+@mixin fadein{
+    -webkit-transition: -webkit-background-color 400ms linear 0s;   
+    -moz-transition: -moz-background-color 400ms linear 0s;   
+    -o-transition: -o-background-color 400ms linear 0s;   
+    transition: background-color 400ms linear 0s;   
+    
+}
+    
+    

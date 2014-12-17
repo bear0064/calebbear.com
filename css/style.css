@@ -630,14 +630,21 @@ input[placeholder],
   color: #fff; }
 
 .navbar-default .navbar-brand:hover {
-  color: #ccc; }
+  color: #a99a6f;
+  -webkit-transition: -webkit-color 200ms linear 0s;
+  -moz-transition: -moz-color 200ms linear 0s;
+  -o-transition: -o-color 200ms linear 0s;
+  transition: color 200ms linear 0s; }
 
 .navbar-default .navbar-nav > li > a {
   color: #fff; }
 
 .navbar-default .navbar-nav > li > a:hover {
   color: #a99a6f;
-  transition: color 200ms linear 0; }
+  -webkit-transition: -webkit-color 200ms linear 0s;
+  -moz-transition: -moz-color 200ms linear 0s;
+  -o-transition: -o-color 200ms linear 0s;
+  transition: color 200ms linear 0s; }
 
 .navbar-default .navbar-nav > li > a:focus {
   color: #fff; }
@@ -645,25 +652,28 @@ input[placeholder],
 .navbar-default .navbar-brand:focus {
   color: #fff; }
 
-.navbar-default .navbar-brand:hover {
-  color: #a99a6f;
-  transition: color 200ms linear 0; }
-
 .navbar-default .navbar-collapse {
   border-color: transparent;
   -webkit-box-shadow: none;
   box-shadow: none; }
 
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
   background-color: transparent; }
 
 .navbar-default {
   background-color: transparent;
-  transition: background-color 400ms linear 0; }
+  -webkit-transition: -webkit-background-color 400ms linear 0s;
+  -moz-transition: -moz-background-color 400ms linear 0s;
+  -o-transition: -o-background-color 400ms linear 0s;
+  transition: background-color 400ms linear 0s; }
 
 .navbar-default.opaque {
   background-color: black;
-  transition: background-color 400ms linear 0; }
+  -webkit-transition: -webkit-background-color 400ms linear 0s;
+  -moz-transition: -moz-background-color 400ms linear 0s;
+  -o-transition: -o-background-color 400ms linear 0s;
+  transition: background-color 400ms linear 0s; }
 
 @media only screen and (max-width: 599px) {
   .navbar > .container .navbar-brand,
