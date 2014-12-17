@@ -502,8 +502,7 @@ input[placeholder],
   -o-background-size: cover;
   background-size: cover;
   padding-top: 48px;
-  padding-bottom: 48px;
-  width: 100%; }
+  padding-bottom: 48px; }
 
 .page-break {
   width: 50%;
@@ -674,7 +673,7 @@ input[placeholder],
 
   .navbar-default img {
     position: relative;
-    left: 43%;
+    left: 42%;
     max-width: 70px; } }
 @media only screen and (min-width: 600px) {
   .navbar > .container .navbar-brand,
