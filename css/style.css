@@ -494,15 +494,15 @@ input[placeholder],
   color: #000; }
 
 .content-space-two {
-  height: 400px;
-  color: inherit;
+  background-size: cover;
+  background-position: 50% 50%;
   background: url(../img/work-stations-plus-espresso.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 48px;
-  padding-bottom: 48px; }
+  background-repeat: no-repeat;
+  padding: 200px 0 200px 0; }
 
 .page-break {
   width: 50%;
