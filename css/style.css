@@ -496,13 +496,14 @@ input[placeholder],
 .content-space-two {
   height: 400px;
   color: inherit;
-  background: url(http://placehold.it/1200x650/555/000000) no-repeat center center fixed;
+  background: url(../img/work-stations-plus-espresso.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   padding-top: 48px;
-  padding-bottom: 48px; }
+  padding-bottom: 48px;
+  width: 100%; }
 
 .page-break {
   width: 50%;
@@ -691,19 +692,25 @@ input[placeholder],
 -------------------------------------------------------------------------------------------------------------------- */
 footer {
   position: relative;
-  width: 100%;
-  height: 150px;
   background: #000;
-  z-index: 99; }
+  z-index: 99;
+  height: 320px; }
 
 footer .credits {
-  color: #fff;
-  padding-top: 20px;
+  padding-top: 20px; }
+
+.name {
   font-size: 20px;
+  color: #a99a6f;
   text-align: center; }
 
-footer .minor-foot {
+.email, .number, .city, .social, .copy {
+  font-size: 15px;
   text-align: center; }
+
+.social a, .email a {
+  color: #a99a6f;
+  text-decoration: none; }
 
 /* = Print
 -------------------------------------------------------------------------------------------------------------------- */
